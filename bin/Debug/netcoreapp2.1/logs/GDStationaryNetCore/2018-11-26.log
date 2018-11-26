@@ -1,0 +1,35 @@
+[2018-11-26 17:29:47.7458][DESKTOP-290LN0T][Debug] Failed to authenticate HTTPS connection. Authentication failed because the remote party has closed the transport stream.
+[2018-11-26 17:29:54.7388][DESKTOP-290LN0T][Info] Request starting HTTP/1.1 POST http://localhost:6000/api/Authorize application/json 47 
+[2018-11-26 17:29:54.7895][DESKTOP-290LN0T][Info] Request finished in 49.8021ms 307  
+[2018-11-26 17:29:54.8150][DESKTOP-290LN0T][Info] Connection id "0HLIJG6QIMT7K", Request id "0HLIJG6QIMT7K:00000001": the application completed without reading the entire request body. 
+[2018-11-26 17:29:54.8305][DESKTOP-290LN0T][Info] Request starting HTTP/1.1 POST https://localhost:6001/api/Authorize application/json 47 
+[2018-11-26 17:29:55.0556][DESKTOP-290LN0T][Info] Route matched with {action = "Token", controller = "Authorize"}. Executing action JwtAuthSample.Controllers.AuthorizeController.Token (dotnetCoreApi) 
+[2018-11-26 17:29:55.1407][DESKTOP-290LN0T][Info] Executing action method JwtAuthSample.Controllers.AuthorizeController.Token (dotnetCoreApi) with arguments (JwtAuthSample.LoginViewModel) - Validation state: Valid 
+[2018-11-26 17:29:55.1604][DESKTOP-290LN0T][Info] Executed action method JwtAuthSample.Controllers.AuthorizeController.Token (dotnetCoreApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.5629ms. 
+[2018-11-26 17:29:55.1690][DESKTOP-290LN0T][Info] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+[2018-11-26 17:29:55.1842][DESKTOP-290LN0T][Info] Executed action JwtAuthSample.Controllers.AuthorizeController.Token (dotnetCoreApi) in 122.5139ms 
+[2018-11-26 17:29:55.1842][DESKTOP-290LN0T][Info] Request finished in 360.0921ms 200 application/json; charset=utf-8 
+[2018-11-26 17:30:07.9378][DESKTOP-290LN0T][Info] Request starting HTTP/1.1 GET https://localhost:6001/api/values   
+[2018-11-26 17:30:07.9573][DESKTOP-290LN0T][Info] Successfully validated the token. 
+[2018-11-26 17:30:07.9573][DESKTOP-290LN0T][Info] Route matched with {action = "Get", controller = "Values"}. Executing action dotnetCoreApi.Controllers.ValuesController.Get (dotnetCoreApi) 
+[2018-11-26 17:30:07.9779][DESKTOP-290LN0T][Info] Authorization was successful. 
+[2018-11-26 17:30:07.9828][DESKTOP-290LN0T][Info] Executing action method dotnetCoreApi.Controllers.ValuesController.Get (dotnetCoreApi) - Validation state: Valid 
+[2018-11-26 17:30:17.1783][DESKTOP-290LN0T][Info] Executed action dotnetCoreApi.Controllers.ValuesController.Get (dotnetCoreApi) in 9211.6364ms 
+[2018-11-26 17:30:17.2045][DESKTOP-290LN0T][Error] 系统发生未处理异常：   at dotnetCoreApi.Controllers.ValuesController.Get() in D:\mywork\dotnetCoreApi\Controllers\ValuesController.cs:line 19
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at dotnetCoreApi.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\mywork\dotnetCoreApi\ExceptionHandlerMiddleWare.cs:line 25 
+[2018-11-26 17:30:17.2045][DESKTOP-290LN0T][Info] Request finished in 9275.958ms 400 application/json 

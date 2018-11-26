@@ -1,0 +1,14 @@
+D:\mywork\dotnetCoreApi\bin\Debug\netcoreapp2.1\dotnetCoreApi.deps.json
+D:\mywork\dotnetCoreApi\bin\Debug\netcoreapp2.1\dotnetCoreApi.runtimeconfig.json
+D:\mywork\dotnetCoreApi\bin\Debug\netcoreapp2.1\dotnetCoreApi.runtimeconfig.dev.json
+D:\mywork\dotnetCoreApi\bin\Debug\netcoreapp2.1\dotnetCoreApi.dll
+D:\mywork\dotnetCoreApi\bin\Debug\netcoreapp2.1\dotnetCoreApi.pdb
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.csprojAssemblyReference.cache
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.csproj.CoreCompileInputs.cache
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.RazorAssemblyInfo.cache
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.RazorAssemblyInfo.cs
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.AssemblyInfoInputs.cache
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.AssemblyInfo.cs
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.RazorTargetAssemblyInfo.cache
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.dll
+D:\mywork\dotnetCoreApi\obj\Debug\netcoreapp2.1\dotnetCoreApi.pdb
